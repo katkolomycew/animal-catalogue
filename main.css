@@ -21,6 +21,7 @@ header {
   display: inline-block;
   line-height: 72px;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 p {
@@ -254,7 +255,7 @@ p {
 
 @media only all and (max-width: 1200px) {
   .collumn {
-    width: 31%;
+    width: 30.87%;
   }
 }
 
@@ -266,12 +267,13 @@ p {
 
 @media only all and (max-width: 600px) {
   .collumn {
-    width: 100%;
+    width: 95%;
+    margin: 0 5px 0 5px;
   }
 
   .collumn + .collumn {
     border-left: none;
-    border-bottom: 1px solid #2f2f2f;
+    border-top: 1px solid #2f2f2f;
   }
 
   header {
